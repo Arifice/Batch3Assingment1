@@ -1,12 +1,11 @@
-"use strict";
 {
     // Repeat string.
-    const repeatString = (str, num) => {
+    var repeatString = function (str, num) {
         if (num <= 0) {
             console.log('Please enter a positive number');
         }
         else {
-            for (let i = 0; i < num; i++) {
+            for (var i = 0; i < num; i++) {
                 console.log(str);
             }
         }
